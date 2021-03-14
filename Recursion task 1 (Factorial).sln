@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion task 1 (Factorial)", "Recursion task 1 (Factorial)\Recursion task 1 (Factorial).csproj", "{695B05E6-B208-4D4F-8E59-D75CE5FEEF17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{695B05E6-B208-4D4F-8E59-D75CE5FEEF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695B05E6-B208-4D4F-8E59-D75CE5FEEF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695B05E6-B208-4D4F-8E59-D75CE5FEEF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695B05E6-B208-4D4F-8E59-D75CE5FEEF17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3795A5A3-21C2-4DC6-871E-41C7EB45C736}
+	EndGlobalSection
+EndGlobal
