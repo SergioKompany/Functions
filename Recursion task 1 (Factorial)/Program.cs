@@ -17,21 +17,28 @@ namespace Recursion_task_1__Factorial_
         {
             while (true)
             {
-                Console.WriteLine("Enter a natural number to count a factorial (n!):");
-                ulong n = ulong.Parse(Console.ReadLine());
-                if (n == 0)
+                try
                 {
-                    Console.WriteLine("The factorial 0! = 1");
+                    Console.WriteLine("Enter a natural number (up to 65) to count a factorial (n!):");
+                    ulong n = ulong.Parse(Console.ReadLine());
+                    if (n == 0)
+                    {
+                        Console.WriteLine("The factorial 0! = 1");
+                    }
+                    else if (n > 65)
+                    {
+                        Console.WriteLine("Even this type of data (UInt64) can not show you so long number!");
+                    }
+                    else if (n > 0)
+                    {
+                        Console.WriteLine("The factorial " + n + "! = " + Factorial(n));
+                    }
                 }
-                else if (n > 0)
-                {
-                    Console.WriteLine("The factorial " + n + "! = " + Factorial(n));
-                }
-                else
+                catch (System.Exception)
                 {
                     Console.WriteLine("You have put not a natural number!");
-                }
-                Console.Write("-------------------------------------------------\n");
+                }   
+                Console.Write("------------------------------------------------------------\n");
                 Console.WriteLine();
             }
         }
